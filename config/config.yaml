@@ -1,0 +1,31 @@
+# Configurações gerais do projeto
+project_name: "Análise COVID-19 SUS"
+author: "Leonardo Basilio"
+version: "1.0"
+
+# Diretórios do projeto
+directories:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  output_data: "data/output"
+  notebooks: "notebooks"
+  dashboards: "dashboards"
+
+# Parâmetros globais
+data_parameters:
+  date_format: "%Y-%m-%d"
+  null_value_replacement: "N/A"
+  columns_to_drop:
+    - "unnecessary_column1"
+    - "unnecessary_column2"
+
+# Conexão com base de dados
+database:
+  host: "localhost"
+  port: 5432
+  user: "xx"
+  password: "xx"
+  database_name: "xx"
+
+# Power BI
+pbi_output: "dashboards/Projeto_COVID.pbi"
