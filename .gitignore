@@ -1,0 +1,32 @@
+# Diretórios de ambiente virtual
+venv/
+.env/
+
+# Arquivos de cache e logs
+__pycache__/
+*.log
+*.pickle
+
+# Arquivos temporários ou desnecessários
+*.tmp
+*.temp
+*.bak
+.DS_Store  # MacOS
+Thumbs.db  # Windows
+
+# Dados brutos
+data/raw/
+data/processed/
+
+# Arquivos do Jupyter Notebook gerados automaticamente
+.ipynb_checkpoints/
+
+
+# Configurações locais do IDE/editor
+.vscode/
+.idea/
+
+# Arquivos de dependências
+*.pyc
+*.pyo
+*.pyd
