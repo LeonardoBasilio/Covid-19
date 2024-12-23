@@ -18,6 +18,8 @@ Thumbs.db  # Windows
 data/raw/
 data/processed/
 
+data/processed/
+
 # Arquivos do Jupyter Notebook gerados automaticamente
 .ipynb_checkpoints/
 
